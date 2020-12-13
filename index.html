@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Carrot</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/65399dabab.js" crossorigin="anonymous"></script>
+  <script src="main.js" defer></script>
+</head>
+<body>
+  <section>
+    <div class="main">
+      <h1 class="sr-only">Carrot Game</h1>
+      <div class="game-btn-box">
+        <button type="button" class="control-btn play" aria-label="play game" >
+          <i class="fas fa-play"></i>
+        </button>
+      </div>
+      <div class="timer"></div>
+      <div class="counter"></div>
+      <div class="container"></div>
+    </div>
+    <section class="modal display-none">
+      <h2 class="sr-only">modal</h2>
+      <button type="button" aria-label="Replay game"
+      class="control-btn replay"
+      >
+        <i class="fas fa-redo-alt"></i>
+      </button>
+      <strong class="modal-con">You Lost</strong>
+    </section>
+  </section>
+  <div class="dim display-none"></div>
+</body>
+</html>
