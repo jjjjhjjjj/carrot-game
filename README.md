@@ -1,5 +1,5 @@
 # Carrot Game  
-바닐라 자바스크립트를 이용한 당근 게임입니다.<br><br>
+바닐라 자바스크립트를 이용한 당근 게임<br><br>
 
 ## 사용한 기술  
 - ![JavaScript Badge](https://img.shields.io/badge/JAVASCRIPT-F7DF1E?style=flat-square&logo=JavaScript&logoColor=white)  
